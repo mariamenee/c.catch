@@ -1,0 +1,36 @@
+.app-header {
+    height: 40px;
+    position: fixed;
+    width: '100%';
+    top: 0;           /* Align to the top */
+    left: 0;          /* Align to the left */
+    right: 0;
+}
+
+.header-title h1 {
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0), /* Adjust opacity for the gradient */
+            rgba(0, 0, 0, 0.376) /* Gradient color */
+        ),
+        #581111; /* Example red color */
+    color: white;
+    padding: 6px;
+    padding-left: 13px;
+    text-align: left;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 200;
+}
+
+.header-under {
+    background-color: #a88d54;
+    height: 5px;
+    position: fixed;
+    width: '100%';
+    top: 34px;           /* Align to the top */
+    left: 0;          /* Align to the left */
+    right: 0;
+}
