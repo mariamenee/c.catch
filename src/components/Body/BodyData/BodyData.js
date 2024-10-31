@@ -6,8 +6,13 @@ const BodyData = () => {
 
     return (
         <div className="body-data">
+        <div className="body-search-bars">
             <SearchBar placeholder="Search subject..."/>
             <SearchBar placeholder="Search class name or CRN..."/>
+        </div>
+        <div className="body-grid">
+            
+        </div>
         </div>
     );
 };
