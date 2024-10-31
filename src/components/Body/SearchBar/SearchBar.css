@@ -1,0 +1,67 @@
+.searchBar {
+    position: relative;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.inputWrapper {
+    display: flex;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    border: 0.5px solid #000000;
+    border-radius: 8px;
+}
+
+.searchInput::placeholder {
+    color: #BDBDBD; /* Replace #888 with your desired color */
+    font-family: "Roboto", sans-serif;
+  }
+
+.searchInput:focus {
+    outline: none; /* Removes the default outline */
+    border-color: #4A90E2; /* Replace with your desired highlight color */
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.4); /* Optional: add a subtle shadow for emphasis */
+}
+
+.dropDownButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: auto;
+    padding: 9px;
+    cursor: pointer;
+    color: #BDBDBD;
+    border-top-right-radius: 8px; /* Adjust as desired */
+    border-bottom-right-radius: 8px; /* Adjust as desired */
+    border: 0.5px solid #000000;
+}
+
+.dropDownButton:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.dropdown {
+    font-family: "Roboto", sans-serif;
+    list-style-type: "none";
+    padding: 0;
+    margin: 0;
+    position: "absolute";
+    width: 217px;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    z-Index: 1;
+}
+
+.filteredItems {
+    padding: 8px;
+    cursor: pointer;
+}

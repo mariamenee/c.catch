@@ -9,8 +9,6 @@ body {
     padding-top: 90px;
     margin: 90px auto 0;
     margin-left: 45px;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .title {
