@@ -5,6 +5,7 @@
     top: 0;           /* Align to the top */
     left: 0;          /* Align to the left */
     right: 0;
+    z-index: -1; /* This will be behind Header */
 }
 
 .header-title h1 {

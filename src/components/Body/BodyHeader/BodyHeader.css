@@ -1,0 +1,30 @@
+body {
+    overflow-x: hidden; /* Disable horizontal scrolling for the body */
+}
+
+.body-title {
+    max-width: 1050px; /* Use max-width instead of width */
+    width: 100%;
+    min-height: 60px;
+    padding-top: 90px;
+    margin: 90px auto 0;
+    margin-left: 45px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.title {
+    color: #5F5F5F;
+    font-family: "Roboto", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.underline {
+    background-color:#B5B5B5;
+    height: 0.5px;
+    width: 100%;
+    margin-left: 50px;
+}
